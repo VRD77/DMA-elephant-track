@@ -1,0 +1,12 @@
+FRAME_WIDTH = 640
+FRAME_HEIGHT = 640
+FPS_TARGET = 15
+YOLO_MODEL = "yolov8n.pt"
+YOLO_CONF_THRESHOLD = 0.50
+FINGER_TRAIL_LENGTH = 10      # was 20 — shorter window for low FPS
+HORIZONTAL_DELTA_MIN = 80     # was 120 — easier to trigger
+VERTICAL_DELTA_MAX = 80       # was 60 — more tolerance for wobbly swipes
+SUSTAINED_FRAMES = 3          # was 15 — 3 frames is enough at low FPS
+ALERT_COOLDOWN_SEC = 6        # was 8 — slightly faster re-trigger
+ALERT_TITLE = "WILDLIFE ALERT"
+ALERT_MESSAGE = "Elephant is crossing — Reduce speed immediately!"

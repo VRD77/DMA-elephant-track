@@ -1,0 +1,14 @@
+path: ./elephant_dataset
+train: train/images
+val: train/images
+test: train/images
+
+nc: 2
+names: ['Ele', 'elephant']
+
+roboflow:
+  workspace: vimmyroy-vr-gmail-com
+  project: vimmyroy-vr-gmail-com
+  version: dataset
+  license: Private
+  url: https://app.roboflow.com/vimmyroy-vr-gmail-com/vimmyroy-vr-gmail-com/dataset
